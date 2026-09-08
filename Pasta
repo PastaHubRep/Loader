@@ -1,6 +1,3 @@
-loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/e04edcb63815a2e479483078857ff4bf97642100c728da1a00ea298133d7388d/download"))()
-
-
 
 local config = {
 
