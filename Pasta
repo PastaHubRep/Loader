@@ -1,0 +1,21 @@
+loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/e04edcb63815a2e479483078857ff4bf97642100c728da1a00ea298133d7388d/download"))()
+
+
+
+local config = {
+
+    [1458767429] = "https://api.jnkie.com/api/v1/luascripts/public/e04edcb63815a2e479483078857ff4bf97642100c728da1a00ea298133d7388d/download",
+    
+}
+
+local currentPlace = game.PlaceId
+
+repeat wait() until game:IsLoaded()
+
+local scriptUrl = config[currentPlace]
+
+if scriptUrl then
+    pcall(function()
+        loadstring(game:HttpGet(scriptUrl))()
+    end)
+end
