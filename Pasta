@@ -1,11 +1,14 @@
 local config = {
-
+--Aba
     [1458767429] = "https://api.jnkie.com/api/v1/luascripts/public/e04edcb63815a2e479483078857ff4bf97642100c728da1a00ea298133d7388d/download",
-
-    
+--gpo
     [3978370137] = "https://api.jnkie.com/api/v1/luascripts/public/f925d2bde940b96972cd6fd391492b217a39076a3fdda76a0a128c34ad5ee166/download",
-
+--gpo
     [116480749200627] = "https://api.jnkie.com/api/v1/luascripts/public/f925d2bde940b96972cd6fd391492b217a39076a3fdda76a0a128c34ad5ee166/download",
+--jjs
+    [9391468976] = "https://api.jnkie.com/api/v1/luascripts/public/f925d2bde940b96972cd6fd391492b217a39076a3fdda76a0a128c34ad5ee166/download",
+
+
 
 }
 
